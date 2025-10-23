@@ -87,6 +87,9 @@ on post-fs-data
     mkdir /mnt/vendor/persist/fpc 0770 system system
     mkdir /data/vendor/fpdump 0770 system system
 
+    # Secure Element
+    mkdir /data/vendor/secure_element 0777 system system
+
     # Dolby
     mkdir /data/vendor/dolby 0770 media media
     mkdir /data/vendor/multimedia 0775 system system
