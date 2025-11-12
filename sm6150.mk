@@ -34,7 +34,7 @@ $(call inherit-product, hardware/dolby/dolby.mk)
 endif
 
 # ViPER4AndroidFX
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+# $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \
